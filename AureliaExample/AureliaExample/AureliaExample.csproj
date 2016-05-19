@@ -134,6 +134,9 @@
     <Content Include="deps.lib.js" />
     <Content Include="packages.config" />
     <Content Include="package.json" />
+    <Content Include="src\home.html" />
+    <Content Include="src\view1.html" />
+    <Content Include="src\view2.html" />
     <Content Include="typings.json" />
     <Content Include="tsconfig.json" />
     <Content Include="css\app.css" />
@@ -164,7 +167,10 @@
     <TypeScriptCompile Include="src\app.ts" />
     <TypeScriptCompile Include="src\hello.ts" />
     <TypeScriptCompile Include="src\deps.ts" />
+    <TypeScriptCompile Include="src\home.ts" />
     <TypeScriptCompile Include="src\main.ts" />
+    <TypeScriptCompile Include="src\view1.ts" />
+    <TypeScriptCompile Include="src\view2.ts" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="src\app.html" />
