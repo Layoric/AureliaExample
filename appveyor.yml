@@ -4,6 +4,6 @@ cache:
 - node_modules
 before_build:
 - cmd: nuget restore
-- cmd: npm install
+- cmd: cd AureliaExample\AureliaExample && npm install
 build:
   verbosity: minimal
