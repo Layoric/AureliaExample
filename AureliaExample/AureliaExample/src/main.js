@@ -5,6 +5,7 @@ System.register([], function(exports_1, context_1) {
     function configure(aurelia) {
         aurelia.use
             .standardConfiguration()
+            .feature('src/resources')
             .developmentLogging();
         aurelia.start().then(function (x) { return x.setRoot('src/app'); });
     }
